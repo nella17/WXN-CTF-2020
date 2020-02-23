@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Feb 23 16:06:58 2020
+Invocation: foremost -i disk_destroyer.png 
+Output directory: /Users/allenguan/ubuntu/security/test/WXN-CTF-2020/Disk-Destroyer/output
+Configuration file: /usr/local/etc/foremost.conf
+------------------------------------------------------------------
+File: disk_destroyer.png
+Start: Sun Feb 23 16:06:58 2020
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       7 KB 	          0 	  (500 x 300)
+1:	00000015.png 	      12 KB 	       8116 	  (500 x 300)
+Finish: Sun Feb 23 16:06:58 2020
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Feb 23 16:06:58 2020
