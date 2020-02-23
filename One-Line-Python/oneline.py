@@ -1,0 +1,1 @@
+open('output','w').write('\n'.join(str(_) for _ in [(lambda s:(int(__import__('hashlib').sha224(s).hexdigest(),16)^int(__import__('hashlib').sha256(s).hexdigest(),16)^int(__import__('hashlib').sha384(s).hexdigest(),16)^int(__import__('hashlib').sha512(s).hexdigest(),16))&0xFFFFFFFF)(flag[i:i+2]) for i in range(0,len(flag),2)]))
